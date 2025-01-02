@@ -1,0 +1,24 @@
+data_type: 'xhumans'
+dataset_path: '/home/llx/xhumans'
+batch_size: 8
+soft_blend: 20
+use_smplx: True
+cond_dim: 73
+dim_cond_embed: 16
+multires: 4
+lbsres: 4
+width: 512
+depth: 8
+skip_layer: [4]
+cond_layer: [0,4]
+smpl_seg: 'data/smplx_seg.npy'
+hierarchical_softmax: True
+estimate_normals: False
+neighborhood_size: 20
+input_scale: 5
+# color ae config
+latent_feature: 16
+color_width: 256
+color_depth: 8
+nums_k: 4
+if_vae: False
